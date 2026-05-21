@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
+title: "Anthony Azari"
+author: "Anthony Azari"
+description: "University of Northern Colorado"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -18,13 +18,13 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  - {file: "archive.html", Title: Home Change, icon sidebaricon: home}
+  - {file: "README.md",Title: About Me, icon sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
+  - {title: Github, icon: github, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
+  - {title: LinkedIn, icon: Linkedin, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
