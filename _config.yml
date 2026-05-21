@@ -18,8 +18,8 @@ show_minimal: true            # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", Title: "Home Change", icon sidebaricon: home}
-  - {file: "README.md",Title: "About Me", icon sidebaricon: address-card}
+  - {file: "/Anthony.pdf", Title: "CV"}
+  - {Title: "Teaching",file: "Teaching.md"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
