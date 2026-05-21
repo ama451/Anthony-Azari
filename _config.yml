@@ -10,7 +10,7 @@ date_format: "%B %d, %Y"
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: false                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
+show_sidebar: true             # show a sidebar instead of the usual header
 show_minimal: false            # remove all clutter
 
 #show_frame: "/assets/images/background.svg"
@@ -18,8 +18,10 @@ show_minimal: false            # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/Anthony.pdf", Title: "CV"}
+  - {file: "/Anthony.pdf", Title: "CV", icon: home}
   - {title: "Teaching",file: "Teaching.md"}
+  -- {title: "Publications",file: "Publications.md"}
+
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
