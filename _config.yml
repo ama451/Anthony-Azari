@@ -18,9 +18,9 @@ show_minimal: false            # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV"", file: "CV.md"}
+  - {title: "CV", file: "CV.md"}
   - {title: "Teaching",file: "Teaching.md"}
-  -- {title: "Course Libraries",file: "Libraries.md"}
+  - {title: "Course Libraries",file: "Libraries.md"}
 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
