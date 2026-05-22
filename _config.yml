@@ -18,15 +18,14 @@ show_minimal: false            # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/Anthony.pdf", Title: "CV", icon: home}
+  - {title: "CV"", file: "CV.md"}
   - {title: "Teaching",file: "Teaching.md"}
-  -- {title: "Publications",file: "Publications.md"}
+  -- {title: "Course Libraries",file: "Libraries.md"}
 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
-  - {title: Github, icon: github, url: "https://rscj.newark.rutgers.edu/people/students/anthony-azari/"}
-
+  
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
 #  isso_domain: ""              # see https://isso-comments.de
